@@ -1,0 +1,54 @@
+patient_id,patient_name,birth_date,sexe_code,treatment_date,treatment_type,report
+B1001,Dupont Martin,1958-03-12,,2024-03-25,immunotherapie,"Compte rendu : stadeIV confirme, immunotherapie programmee."
+B1002,BERNARD SOPHIE,1965-07-22,,2022-07-13,immunotherapie,"Compte rendu : stadeII confirme, immunotherapie programmee."
+B1003,BERNARD SOPHIE,1965-07-22,2,2024-06-28,immunotherapie,Cancer colorectal de stade II. Prise en charge par immunotherapie.
+B1004,Petit Jean,1949-11-05,1,2021-04-13,immunotherapie,"Compte rendu : stadeII confirme, immunotherapie programmee."
+B1005,PETIT JEAN,1949-11-05 00:00:00,1,2021-06-17,immunotherapie,"RCP du 17/06/2021 : stade III, decision immunotherapie."
+B1006,nathalie moreau,1972-01-30,2,2022-02-13,chimiotherapie,Cancer de la prostate de stade I. Prise en charge par chimiotherapie.
+B1007,Moreau Nathalie,1972-01-30,2,2023-01-26,immunotherapie,"Diagnostic : tumeur de l'ovaire, Stade II. immunotherapie en cours."
+B1008,BENALI AHMED,1960-09-14,1,2022-10-01,hormonotherapie,"RCP du 01/10/2022 : stade I, decision hormonotherapie."
+B1009,BENALI AHMED,1960-09-14,1,2021-07-28,hormonotherapie,"Patient stade I, traitement hormonotherapie."
+B1010,Benali Ahmed,1960-09-14,1,2024-09-16,hormonotherapie,Patiente presentant une lesion du pancreas de stade III.
+B1011,Girard Isabelle,1955-05-03,2,2023-06-11,immunotherapie,Patiente presentant une lesion colorectal de stade III.
+B1012,Roux Philippe,1948-12-19,1,2021-06-27,chirurgie,"Compte rendu : stadeIII confirme, chirurgie programmee."
+B1013,Roux Philippe,1948-12-19,1,2022-10-28,chimiotherapie,stade III - chimiotherapie. Bonne tolerance.
+B1014,HADDAD FATIMA,1968-04-08,2,2023-04-13,chimiotherapie,Patiente presentant une lesion de la prostate de stade II.
+B1015,Haddad Fatima,1968-04-08,2,2022-08-26,chimiotherapie,Patiente presentant une lesion pulmonaire de stade IV.
+B1016,laurent fontaine,1961-02-27,1,2022-12-22,immunotherapie,"RCP du 22/12/2022 : stade III, decision immunotherapie."
+B1017,Fontaine Laurent,1961-02-27,1,2022-01-28,chimiotherapie,stade III - chimiotherapie. Bonne tolerance.
+B1018,Lefevre Christine,1953-08-16,,2023-01-10,chirurgie,"Patient stade II, traitement chirurgie."
+B1019,christine lefevre,1953-08-16,2,2021-07-30,radiotherapie,"Diagnostic : tumeur ORL, Stade III. radiotherapie en cours."
+B1020,christine lefevre,1953-08-16 00:00:00,2,2021-08-22,chirurgie,"Patient stade I, traitement chirurgie."
+B1021,GARNIER MICHEL,1946-06-11,1,2021-08-31,chimiotherapie,"Compte rendu : stadeIII confirme, chimiotherapie programmee."
+B1022,FAURE SYLVIE,1970-10-02,2,2022-09-18,chirurgie,"RCP du 18/09/2022 : stade IV, decision chirurgie."
+B1023,Faure Sylvie,1970-10-02 00:00:00,2,2021-11-18,chirurgie,Patiente presentant une lesion pulmonaire de stade II.
+B1024,bernard gauthier,1947-11-11,1,2024-12-10,chirurgie,"RCP du 10/12/2024 : stade II, decision chirurgie."
+B1025,Roussel Celine,1967-01-23,2,2021-10-19,radiotherapie,stade II - radiotherapie. Bonne tolerance.
+B1026,Roussel Celine,1967-01-23,2,2024-11-11,chimiotherapie,Patiente presentant une lesion ORL de stade IV.
+B1027,Barbier Vincent,1954-05-29,1,2024-05-21,immunotherapie,"Patient stade I, traitement immunotherapie."
+B1028,RENARD EMILIE,1979-09-10,2,2021-12-25,hormonotherapie,"Compte rendu : stadeIII confirme, hormonotherapie programmee."
+B1029,RENARD EMILIE,1979-09-10 00:00:00,2,2022-12-14,chimiotherapie,"Compte rendu : stadeIV confirme, chimiotherapie programmee."
+B1030,Renard Emilie,1979-09-10,2,2024-02-01,chirurgie,"Compte rendu : stadeIV confirme, chirurgie programmee."
+B1031,Cherif Karim,1964-04-02,1,2023-04-27,hormonotherapie,Patiente presentant une lesion ORL de stade I.
+B1032,Cherif Karim,1964-04-02,1,2024-01-30,radiotherapie,"Patient stade I, traitement radiotherapie."
+B1033,Cherif Karim,1964-04-02,1,2024-02-03,radiotherapie,Cancer de l'ovaire de stade II. Prise en charge par radiotherapie.
+B1034,NOEL PATRICIA,1952-12-08,2,2022-08-21,radiotherapie,"RCP du 21/08/2022 : stade I, decision radiotherapie."
+B1035,Noel Patricia,1952-12-08,2,2023-02-25,hormonotherapie,Cancer colorectal de stade IV. Prise en charge par hormonotherapie.
+B1036,Aubert Alain,1945-06-20,1,2021-01-06,chirurgie,Patiente presentant une lesion de l'ovaire de stade IV.
+B1037,Lopez Julie,1982-02-14,2,2022-12-08,hormonotherapie,"RCP du 08/12/2022 : stade IV, decision hormonotherapie."
+B1038,julie lopez,1982-02-14,2,2022-04-24,hormonotherapie,"Compte rendu : stadeII confirme, hormonotherapie programmee."
+B1039,Lopez Julie,1982-02-14,2,2021-03-17,radiotherapie,Patiente presentant une lesion ORL de stade IV.
+B1040,denis colin,1956-08-26 00:00:00,1,2023-04-20,chimiotherapie,stade IV - chimiotherapie. Bonne tolerance.
+B1041,sabrina vidal,1976-10-05,2,2024-10-13,chimiotherapie,Patiente presentant une lesion gastrique de stade IV.
+B1042,VIDAL SABRINA,1976-10-05,2,2022-04-26,hormonotherapie,"Compte rendu : stadeI confirme, hormonotherapie programmee."
+B1043,Brun Francois,1950-03-31,,2024-11-22,immunotherapie,"Bilan : colorectal, classe stade I. Debut immunotherapie."
+B1044,BRUN FRANCOIS,1950-03-31,1,2022-05-16,immunotherapie,Cancer colorectal de stade III. Prise en charge par immunotherapie.
+B1045,francois brun,1950-03-31,1,2023-10-17,hormonotherapie,stade IV - hormonotherapie. Bonne tolerance.
+B1046,GAILLARD MONIQUE,1942-07-13,2,2021-06-01,chirurgie,"Compte rendu : stadeIV confirme, chirurgie programmee."
+B1047,monique gaillard,1942-07-13 00:00:00,2,2022-02-12,immunotherapie,"Bilan : de l'ovaire, classe stade III. Debut immunotherapie."
+B1048,Slimani Hakim,1973-11-19,1,2022-07-17,chimiotherapie,Patiente presentant une lesion du pancreas de stade III.
+B1049,SLIMANI HAKIM,1973-11-19,1,2022-03-25,radiotherapie,"Diagnostic : tumeur gastrique, Stade III. radiotherapie en cours."
+B1050,REY CHANTAL,1959-05-07 00:00:00,2,2021-03-10,chirurgie,"Compte rendu : stadeI confirme, chirurgie programmee."
+B1051,chantal rey,1959-05-07,2,2024-01-10,radiotherapie,"Diagnostic : tumeur colorectal, Stade II. radiotherapie en cours."
+B1052,MARCHAND PAUL,1955-04-18,1,2027-08-01,immunotherapie,Cancer pulmonaire de stade III. Prise en charge par immunotherapie.
+B1053,,1960-02-02,2,2023-07-19,chimiotherapie,stade IV - chimiotherapie. Surveillance rapprochee.

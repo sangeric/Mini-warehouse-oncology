@@ -1,0 +1,50 @@
+id_patient,nom_pat,date_naissance,sexe,date_traitement,type_traitement,compte_rendu
+A001,Martin Dupont,12/03/1958,M,03/04/2022,chirurgie,"Patient stade I, traitement chirurgie."
+A002,DUPONT Martin,12/03/1958,m,22/04/2022,chimiotherapie,"RCP du 22/04/2022 : stade I, decision chimiotherapie."
+A003,Sophie Bernard,22/07/1965,F,30/11/2024,chimiotherapie,"Compte rendu : stadeIII confirme, chimiotherapie programmee."
+A004,Sophie Bernard,22/7/1965,f,21/05/2024,chirurgie,Cancer gastrique de stade I. Prise en charge par chirurgie.
+A005,Jean Petit,05/11/1949,M,13/12/2024,hormonotherapie,Cancer de la prostate de stade III. Prise en charge par hormonotherapie.
+A006, Jean  Petit ,05/11/1949,M,25/07/2024,chirurgie,Cancer ORL de stade IV. Prise en charge par chirurgie.
+A007,Nathalie Moreau,30/01/1972,F,01/12/2021,hormonotherapie,"Bilan : de la prostate, classe stade II. Debut hormonotherapie."
+A008,Nathalie Moreau,30/01/1972,f,09/10/2022,radiotherapie,"RCP du 09/10/2022 : stade I, decision radiotherapie."
+A009,Ahmed Benali,14/09/1960,M,27/06/2022,immunotherapie,"Compte rendu : stadeIV confirme, immunotherapie programmee."
+A010,Ahmed Benali,14/9/1960,M,10/11/2023,radiotherapie,"Compte rendu : stadeIII confirme, radiotherapie programmee."
+A011,Isabelle Girard,03/05/1955,F,20/12/2023,immunotherapie,stade IV - immunotherapie. Bonne tolerance.
+A012,Isabelle Girard,03/05/1955,f,10/06/2023,chimiotherapie,"Diagnostic : tumeur de l'ovaire, Stade III. chimiotherapie en cours."
+A013,Philippe Roux,19/12/1948,M,10/11/2021,chirurgie,"Bilan : de la prostate, classe stade I. Debut chirurgie."
+A014, Philippe  Roux ,19/12/1948,M,14/01/2023,chimiotherapie,Cancer pulmonaire de stade IV. Prise en charge par chimiotherapie.
+A015,HADDAD Fatima,08/04/1968,F,20/09/2021,chimiotherapie,"RCP du 20/09/2021 : stade IV, decision chimiotherapie."
+A016,FONTAINE Laurent,27/2/1961,M,07/10/2024,chirurgie,"Bilan : du pancreas, classe stade II. Debut chirurgie."
+A017,Laurent Fontaine,27/2/1961,m,20/04/2024,hormonotherapie,"Bilan : de la prostate, classe stade I. Debut hormonotherapie."
+A018,FONTAINE Laurent,27/02/1961,M,25/07/2022,hormonotherapie,Patiente presentant une lesion de la prostate de stade I.
+A019,Christine Lefevre,16/08/1953,F,13/07/2021,immunotherapie,Cancer de la prostate de stade IV. Prise en charge par immunotherapie.
+A020,Michel Garnier,11/06/1946,M,28/01/2022,chimiotherapie,Cancer de la prostate de stade III. Prise en charge par chimiotherapie.
+A021, Sylvie  Faure ,02/10/1970,F,11/07/2021,chimiotherapie,"Compte rendu : stadeI confirme, chimiotherapie programmee."
+A022, Sylvie  Faure ,02/10/1970,F,05/01/2021,radiotherapie,Patiente presentant une lesion du pancreas de stade I.
+A023,DURAND Pierre,25/3/1959,m,01/04/2024,radiotherapie,"Diagnostic : tumeur du sein, Stade III. radiotherapie en cours."
+A024,Marie Leroy,09/07/1963,F,03/05/2024,radiotherapie,"Patient stade I, traitement radiotherapie."
+A025,Antoine Muller,30/11/1951,M,19/06/2022,hormonotherapie,stade IV - hormonotherapie. Bonne tolerance.
+A026,Antoine Muller,30/11/1951,M,20/01/2021,chirurgie,stade IV - chirurgie. Bonne tolerance.
+A027,Camille Blanc,18/01/1975,F,27/01/2023,chimiotherapie,"Patient stade III, traitement chimiotherapie."
+A028,Kevin Guerin,21/05/1980,M,26/06/2022,chimiotherapie,"Bilan : colorectal, classe stade III. Debut chimiotherapie."
+A029, Kevin  Guerin ,21/05/1980,M,30/05/2022,chirurgie,"Patient stade II, traitement chirurgie."
+A030,MEZIANE Djamila,7/9/1966,,24/06/2023,chirurgie,"Diagnostic : tumeur colorectal, Stade II. chirurgie en cours."
+A031,Djamila Meziane,07/09/1966,F,31/05/2023,chirurgie,"Bilan : colorectal, classe stade I. Debut chirurgie."
+A032, Robert  Chevalier ,13/12/1943,M,21/02/2024,chimiotherapie,"Diagnostic : tumeur gastrique, Stade II. chimiotherapie en cours."
+A033,ROBIN Aurelie,04/04/1978,F,03/01/2022,immunotherapie,"RCP du 03/01/2022 : stade II, decision immunotherapie."
+A034, Aurelie  Robin ,04/04/1978,F,23/02/2023,radiotherapie,stade III - radiotherapie. Bonne tolerance.
+A035,Aurelie Robin,04/04/1978,F,13/09/2024,radiotherapie,"Compte rendu : stadeII confirme, radiotherapie programmee."
+A036,Thierry Masson,28/6/1957,M,19/06/2022,chimiotherapie,"Bilan : pulmonaire, classe stade III. Debut chimiotherapie."
+A037, Thierry  Masson ,28/06/1957,,28/02/2023,hormonotherapie,"RCP du 28/02/2023 : stade IV, decision hormonotherapie."
+A038, Nadia  Bouchard ,01/08/1969,F,20/09/2024,chirurgie,"Compte rendu : stadeI confirme, chirurgie programmee."
+A039,Nadia Bouchard,01/08/1969,F,28/01/2022,hormonotherapie,stade III - hormonotherapie. Bonne tolerance.
+A040,Gerard Lemoine,15/02/1944,M,07/03/2022,chirurgie,"RCP du 07/03/2022 : stade I, decision chirurgie."
+A041,LEMOINE Gerard,15/02/1944,M,05/08/2022,radiotherapie,stade IV - radiotherapie. Bonne tolerance.
+A042,Valerie Dumas,24/10/1971,F,05/04/2021,radiotherapie,"RCP du 05/04/2021 : stade II, decision radiotherapie."
+A043,Olivier Perrin,06/03/1962,M,15/05/2022,immunotherapie,"Compte rendu : stadeIV confirme, immunotherapie programmee."
+A044,PERRIN Olivier,6/3/1962,M,13/04/2021,radiotherapie,"Bilan : ORL, classe stade II. Debut radiotherapie."
+A045,Sandrine Morel,17/07/1974,F,28/01/2024,hormonotherapie,stade IV - hormonotherapie. Bonne tolerance.
+A046,Sandrine Morel,17/07/1974,F,20/06/2023,radiotherapie,"Diagnostic : tumeur de l'ovaire, Stade IV. radiotherapie en cours."
+A047,Sandrine Morel,17/07/1974,F,22/11/2024,radiotherapie,"Patient stade II, traitement radiotherapie."
+A048,Luc Girard,15/06/1990,M,10/03/1985,chirurgie,"Patient stade I, traitement chirurgie."
+A049,Eva Lambert,03/09/1961,F,22/11/2023,radiotherapie,
