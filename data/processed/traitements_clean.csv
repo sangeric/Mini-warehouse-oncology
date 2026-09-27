@@ -1,103 +1,104 @@
-id_traitement,patient_uid,id_source,id_patient_src,date_traitement,type_traitement,compte_rendu
-1,25,A,A001,2022-04-03,chirurgie,"Patient stade I, traitement chirurgie."
-2,25,A,A002,2022-04-22,chimiotherapie,"RCP du 22/04/2022 : stade I, decision chimiotherapie."
-3,14,A,A003,2024-11-30,chimiotherapie,"Compte rendu : stadeIII confirme, chimiotherapie programmee."
-4,14,A,A004,2024-05-21,chirurgie,Cancer gastrique de stade I. Prise en charge par chirurgie.
-5,39,A,A005,2024-12-13,hormonotherapie,Cancer de la prostate de stade III. Prise en charge par hormonotherapie.
-6,39,A,A006,2024-07-25,chirurgie,Cancer ORL de stade IV. Prise en charge par chirurgie.
-7,44,A,A007,2021-12-01,hormonotherapie,"Bilan : de la prostate, classe stade II. Debut hormonotherapie."
-8,44,A,A008,2022-10-09,radiotherapie,"RCP du 09/10/2022 : stade I, decision radiotherapie."
-9,8,A,A009,2022-06-27,immunotherapie,"Compte rendu : stadeIV confirme, immunotherapie programmee."
-10,8,A,A010,2023-11-10,radiotherapie,"Compte rendu : stadeIII confirme, radiotherapie programmee."
-11,35,A,A011,2023-12-20,immunotherapie,stade IV - immunotherapie. Bonne tolerance.
-12,35,A,A012,2023-06-10,chimiotherapie,"Diagnostic : tumeur de l'ovaire, Stade III. chimiotherapie en cours."
-13,48,A,A013,2021-11-10,chirurgie,"Bilan : de la prostate, classe stade I. Debut chirurgie."
-14,48,A,A014,2023-01-14,chimiotherapie,Cancer pulmonaire de stade IV. Prise en charge par chimiotherapie.
-15,29,A,A015,2021-09-20,chimiotherapie,"RCP du 20/09/2021 : stade IV, decision chimiotherapie."
-16,31,A,A016,2024-10-07,chirurgie,"Bilan : du pancreas, classe stade II. Debut chirurgie."
-17,31,A,A017,2024-04-20,hormonotherapie,"Bilan : de la prostate, classe stade I. Debut hormonotherapie."
-18,31,A,A018,2022-07-25,hormonotherapie,Patiente presentant une lesion de la prostate de stade I.
-19,22,A,A019,2021-07-13,immunotherapie,Cancer de la prostate de stade IV. Prise en charge par immunotherapie.
-20,33,A,A020,2022-01-28,chimiotherapie,Cancer de la prostate de stade III. Prise en charge par chimiotherapie.
-21,30,A,A021,2021-07-11,chimiotherapie,"Compte rendu : stadeI confirme, chimiotherapie programmee."
-22,30,A,A022,2021-01-05,radiotherapie,Patiente presentant une lesion du pancreas de stade I.
-23,26,A,A023,2024-04-01,radiotherapie,"Diagnostic : tumeur du sein, Stade III. radiotherapie en cours."
-24,41,A,A024,2024-05-03,radiotherapie,"Patient stade I, traitement radiotherapie."
-25,10,A,A025,2022-06-19,hormonotherapie,stade IV - hormonotherapie. Bonne tolerance.
-26,10,A,A026,2021-01-20,chirurgie,stade IV - chirurgie. Bonne tolerance.
-27,15,A,A027,2023-01-27,chimiotherapie,"Patient stade III, traitement chimiotherapie."
-28,37,A,A028,2022-06-26,chimiotherapie,"Bilan : colorectal, classe stade III. Debut chimiotherapie."
-29,37,A,A029,2022-05-30,chirurgie,"Patient stade II, traitement chirurgie."
-30,23,A,A030,2023-06-24,chirurgie,"Diagnostic : tumeur colorectal, Stade II. chirurgie en cours."
-31,23,A,A031,2023-05-31,chirurgie,"Bilan : colorectal, classe stade I. Debut chirurgie."
-32,21,A,A032,2024-02-21,chimiotherapie,"Diagnostic : tumeur gastrique, Stade II. chimiotherapie en cours."
-33,11,A,A033,2022-01-03,immunotherapie,"RCP du 03/01/2022 : stade II, decision immunotherapie."
-34,11,A,A034,2023-02-23,radiotherapie,stade III - radiotherapie. Bonne tolerance.
-35,11,A,A035,2024-09-13,radiotherapie,"Compte rendu : stadeII confirme, radiotherapie programmee."
-36,43,A,A036,2022-06-19,chimiotherapie,"Bilan : pulmonaire, classe stade III. Debut chimiotherapie."
-37,43,A,A037,2023-02-28,hormonotherapie,"RCP du 28/02/2023 : stade IV, decision hormonotherapie."
-38,16,A,A038,2024-09-20,chirurgie,"Compte rendu : stadeI confirme, chirurgie programmee."
-39,16,A,A039,2022-01-28,hormonotherapie,stade III - hormonotherapie. Bonne tolerance.
-40,34,A,A040,2022-03-07,chirurgie,"RCP du 07/03/2022 : stade I, decision chirurgie."
-41,34,A,A041,2022-08-05,radiotherapie,stade IV - radiotherapie. Bonne tolerance.
-42,24,A,A042,2021-04-05,radiotherapie,"RCP du 05/04/2021 : stade II, decision radiotherapie."
-43,47,A,A043,2022-05-15,immunotherapie,"Compte rendu : stadeIV confirme, immunotherapie programmee."
-44,47,A,A044,2021-04-13,radiotherapie,"Bilan : ORL, classe stade II. Debut radiotherapie."
-45,45,A,A045,2024-01-28,hormonotherapie,stade IV - hormonotherapie. Bonne tolerance.
-46,45,A,A046,2023-06-20,radiotherapie,"Diagnostic : tumeur de l'ovaire, Stade IV. radiotherapie en cours."
-47,45,A,A047,2024-11-22,radiotherapie,"Patient stade II, traitement radiotherapie."
-48,36,A,A048,1985-03-10,chirurgie,"Patient stade I, traitement chirurgie."
-49,28,A,A049,2023-11-22,radiotherapie,
-50,25,B,B1001,2024-03-25,immunotherapie,"Compte rendu : stadeIV confirme, immunotherapie programmee."
-51,14,B,B1002,2022-07-13,immunotherapie,"Compte rendu : stadeII confirme, immunotherapie programmee."
-52,14,B,B1003,2024-06-28,immunotherapie,Cancer colorectal de stade II. Prise en charge par immunotherapie.
-53,39,B,B1004,2021-04-13,immunotherapie,"Compte rendu : stadeII confirme, immunotherapie programmee."
-54,1,B,B1005,2021-06-17,immunotherapie,"RCP du 17/06/2021 : stade III, decision immunotherapie."
-55,44,B,B1006,2022-02-13,chimiotherapie,Cancer de la prostate de stade I. Prise en charge par chimiotherapie.
-56,44,B,B1007,2023-01-26,immunotherapie,"Diagnostic : tumeur de l'ovaire, Stade II. immunotherapie en cours."
-57,8,B,B1008,2022-10-01,hormonotherapie,"RCP du 01/10/2022 : stade I, decision hormonotherapie."
-58,8,B,B1009,2021-07-28,hormonotherapie,"Patient stade I, traitement hormonotherapie."
-59,8,B,B1010,2024-09-16,hormonotherapie,Patiente presentant une lesion du pancreas de stade III.
-60,35,B,B1011,2023-06-11,immunotherapie,Patiente presentant une lesion colorectal de stade III.
-61,48,B,B1012,2021-06-27,chirurgie,"Compte rendu : stadeIII confirme, chirurgie programmee."
-62,48,B,B1013,2022-10-28,chimiotherapie,stade III - chimiotherapie. Bonne tolerance.
-63,29,B,B1014,2023-04-13,chimiotherapie,Patiente presentant une lesion de la prostate de stade II.
-64,29,B,B1015,2022-08-26,chimiotherapie,Patiente presentant une lesion pulmonaire de stade IV.
-65,31,B,B1016,2022-12-22,immunotherapie,"RCP du 22/12/2022 : stade III, decision immunotherapie."
-66,31,B,B1017,2022-01-28,chimiotherapie,stade III - chimiotherapie. Bonne tolerance.
-67,22,B,B1018,2023-01-10,chirurgie,"Patient stade II, traitement chirurgie."
-68,22,B,B1019,2021-07-30,radiotherapie,"Diagnostic : tumeur ORL, Stade III. radiotherapie en cours."
-69,2,B,B1020,2021-08-22,chirurgie,"Patient stade I, traitement chirurgie."
-70,33,B,B1021,2021-08-31,chimiotherapie,"Compte rendu : stadeIII confirme, chimiotherapie programmee."
-71,30,B,B1022,2022-09-18,chirurgie,"RCP du 18/09/2022 : stade IV, decision chirurgie."
-72,3,B,B1023,2021-11-18,chirurgie,Patiente presentant une lesion pulmonaire de stade II.
-73,13,B,B1024,2024-12-10,chirurgie,"RCP du 10/12/2024 : stade II, decision chirurgie."
-74,18,B,B1025,2021-10-19,radiotherapie,stade II - radiotherapie. Bonne tolerance.
-75,18,B,B1026,2024-11-11,chimiotherapie,Patiente presentant une lesion ORL de stade IV.
-76,12,B,B1027,2024-05-21,immunotherapie,"Patient stade I, traitement immunotherapie."
-77,27,B,B1028,2021-12-25,hormonotherapie,"Compte rendu : stadeIII confirme, hormonotherapie programmee."
-78,4,B,B1029,2022-12-14,chimiotherapie,"Compte rendu : stadeIV confirme, chimiotherapie programmee."
-79,27,B,B1030,2024-02-01,chirurgie,"Compte rendu : stadeIV confirme, chirurgie programmee."
-80,20,B,B1031,2023-04-27,hormonotherapie,Patiente presentant une lesion ORL de stade I.
-81,20,B,B1032,2024-01-30,radiotherapie,"Patient stade I, traitement radiotherapie."
-82,20,B,B1033,2024-02-03,radiotherapie,Cancer de l'ovaire de stade II. Prise en charge par radiotherapie.
-83,46,B,B1034,2022-08-21,radiotherapie,"RCP du 21/08/2022 : stade I, decision radiotherapie."
-84,46,B,B1035,2023-02-25,hormonotherapie,Cancer colorectal de stade IV. Prise en charge par hormonotherapie.
-85,9,B,B1036,2021-01-06,chirurgie,Patiente presentant une lesion de l'ovaire de stade IV.
-86,40,B,B1037,2022-12-08,hormonotherapie,"RCP du 08/12/2022 : stade IV, decision hormonotherapie."
-87,40,B,B1038,2022-04-24,hormonotherapie,"Compte rendu : stadeII confirme, hormonotherapie programmee."
-88,40,B,B1039,2021-03-17,radiotherapie,Patiente presentant une lesion ORL de stade IV.
-89,5,B,B1040,2023-04-20,chimiotherapie,stade IV - chimiotherapie. Bonne tolerance.
-90,49,B,B1041,2024-10-13,chimiotherapie,Patiente presentant une lesion gastrique de stade IV.
-91,49,B,B1042,2022-04-26,hormonotherapie,"Compte rendu : stadeI confirme, hormonotherapie programmee."
-92,17,B,B1043,2024-11-22,immunotherapie,"Bilan : colorectal, classe stade I. Debut immunotherapie."
-93,17,B,B1044,2022-05-16,immunotherapie,Cancer colorectal de stade III. Prise en charge par immunotherapie.
-94,17,B,B1045,2023-10-17,hormonotherapie,stade IV - hormonotherapie. Bonne tolerance.
-95,32,B,B1046,2021-06-01,chirurgie,"Compte rendu : stadeIV confirme, chirurgie programmee."
-96,6,B,B1047,2022-02-12,immunotherapie,"Bilan : de l'ovaire, classe stade III. Debut immunotherapie."
-97,38,B,B1048,2022-07-17,chimiotherapie,Patiente presentant une lesion du pancreas de stade III.
-98,38,B,B1049,2022-03-25,radiotherapie,"Diagnostic : tumeur gastrique, Stade III. radiotherapie en cours."
-99,7,B,B1050,2021-03-10,chirurgie,"Compte rendu : stadeI confirme, chirurgie programmee."
-100,19,B,B1051,2024-01-10,radiotherapie,"Diagnostic : tumeur colorectal, Stade II. radiotherapie en cours."
-101,42,B,B1052,2027-08-01,immunotherapie,Cancer pulmonaire de stade III. Prise en charge par immunotherapie.
-102,0,B,B1053,2023-07-19,chimiotherapie,stade IV - chimiotherapie. Surveillance rapprochee.
+id_traitement,patient_uid,id_source,id_patient_src,date_traitement,type_traitement,compte_rendu,stade
+1,16,A,A001,2022-04-03,chirurgie,"RCP du 03/04/2022 : stade I, decision chirurgie.",I
+2,16,A,A002,2024-08-23,hormonotherapie,"Compte rendu : stadeI confirme, hormonotherapie programmee.",I
+3,8,A,A003,2021-07-29,radiotherapie,Cancer gastrique de stade II. Prise en charge par radiotherapie.,II
+4,8,A,A004,2024-07-11,chimiotherapie,stade IV - chimiotherapie. Bonne tolerance.,IV
+5,39,A,A005,2022-07-24,chimiotherapie,Cancer du pancreas de stade II. Prise en charge par chimiotherapie.,II
+6,39,A,A006,2021-12-01,hormonotherapie,"Patient stade II, traitement hormonotherapie.",II
+7,39,A,A007,2023-04-02,chimiotherapie,Patiente presentant une lesion gastrique de stade II.,II
+8,34,A,A008,2024-04-12,radiotherapie,"Patient stade II, traitement radiotherapie.",II
+9,7,A,A009,2024-05-06,radiotherapie,"Patient stade II, traitement radiotherapie.",II
+10,3,A,A010,2024-08-05,hormonotherapie,"Diagnostic : tumeur de l'ovaire, Stade I. hormonotherapie en cours.",I
+11,7,A,A011,2021-11-10,chirurgie,Patiente presentant une lesion de la prostate de stade I.,I
+12,23,A,A012,2021-04-29,chirurgie,"Diagnostic : tumeur de la prostate, Stade III. chirurgie en cours.",III
+13,44,A,A013,2022-06-27,hormonotherapie,stade IV - hormonotherapie. Bonne tolerance.,IV
+14,26,A,A014,2021-09-05,immunotherapie,"Patient stade III, traitement immunotherapie.",III
+15,26,A,A015,2022-11-08,chimiotherapie,Patiente presentant une lesion du sein de stade II.,II
+16,19,A,A016,2021-07-13,immunotherapie,Cancer de la prostate de stade IV. Prise en charge par immunotherapie.,IV
+17,28,A,A017,2022-01-28,chimiotherapie,Patiente presentant une lesion de la prostate de stade III.,III
+18,21,A,A018,2021-07-11,chimiotherapie,"Patient stade I, traitement chimiotherapie.",I
+19,21,A,A019,2023-03-11,immunotherapie,Patiente presentant une lesion du sein de stade II.,II
+20,21,A,A020,2022-03-22,radiotherapie,"Diagnostic : tumeur de l'ovaire, Stade II. radiotherapie en cours.",II
+21,18,A,A021,2024-05-03,radiotherapie,Cancer pulmonaire de stade I. Prise en charge par radiotherapie.,I
+22,17,A,A022,2024-10-03,chirurgie,Cancer de la prostate de stade III. Prise en charge par chirurgie.,III
+23,17,A,A023,2021-05-31,immunotherapie,stade I - immunotherapie. Bonne tolerance.,I
+24,30,A,A024,2024-09-29,hormonotherapie,"Diagnostic : tumeur du sein, Stade III. hormonotherapie en cours.",III
+25,36,A,A025,2024-11-08,chirurgie,"Compte rendu : stadeII confirme, chirurgie programmee.",II
+26,9,A,A026,2021-09-25,chimiotherapie,Cancer gastrique de stade I. Prise en charge par chimiotherapie.,I
+27,9,A,A027,2023-01-27,hormonotherapie,"Patient stade II, traitement hormonotherapie.",II
+28,9,A,A028,2024-09-27,radiotherapie,"RCP du 27/09/2024 : stade III, decision radiotherapie.",III
+29,25,A,A029,2022-01-03,immunotherapie,stade II - immunotherapie. Bonne tolerance.,II
+30,25,A,A030,2021-03-21,chimiotherapie,"RCP du 21/03/2021 : stade II, decision chimiotherapie.",II
+31,25,A,A031,2023-03-28,chimiotherapie,"Bilan : de la prostate, classe stade II. Debut chimiotherapie.",II
+32,33,A,A032,2024-04-04,chirurgie,Cancer colorectal de stade I. Prise en charge par chirurgie.,I
+33,33,A,A033,2022-06-06,hormonotherapie,"RCP du 06/06/2022 : stade IV, decision hormonotherapie.",IV
+34,33,A,A034,2024-09-22,immunotherapie,"Compte rendu : stadeIII confirme, immunotherapie programmee.",III
+35,13,A,A035,2022-01-28,hormonotherapie,"Patient stade III, traitement hormonotherapie.",III
+36,42,A,A036,2023-08-11,immunotherapie,Cancer gastrique de stade II. Prise en charge par immunotherapie.,II
+37,1,A,A037,2024-10-09,chimiotherapie,Cancer de la prostate de stade III. Prise en charge par chimiotherapie.,III
+38,10,A,A038,2023-03-30,immunotherapie,"Compte rendu : stadeII confirme, immunotherapie programmee.",II
+39,10,A,A039,2021-04-13,radiotherapie,"Bilan : ORL, classe stade II. Debut radiotherapie.",II
+40,29,A,A040,2024-01-28,hormonotherapie,Patiente presentant une lesion du pancreas de stade IV.,IV
+41,29,A,A041,2021-06-08,chirurgie,"Diagnostic : tumeur ORL, Stade II. chirurgie en cours.",II
+42,29,A,A042,2023-04-15,chimiotherapie,"Patient stade II, traitement chimiotherapie.",II
+43,15,A,A043,2022-12-22,immunotherapie,"RCP du 22/12/2022 : stade IV, decision immunotherapie.",IV
+44,15,A,A044,2023-06-12,radiotherapie,"Diagnostic : tumeur de l'ovaire, Stade IV. radiotherapie en cours.",IV
+45,15,A,A045,2021-06-21,immunotherapie,"Bilan : du sein, classe stade I. Debut immunotherapie.",I
+46,38,A,A046,2022-06-01,chirurgie,Cancer du pancreas de stade IV. Prise en charge par chirurgie.,IV
+47,38,A,A047,2022-02-13,chimiotherapie,Patiente presentant une lesion de la prostate de stade I.,I
+48,35,A,A048,2021-12-02,radiotherapie,"Compte rendu : stadeIII confirme, radiotherapie programmee.",III
+49,35,A,A049,2021-07-28,chimiotherapie,"Patient stade II, traitement chimiotherapie.",II
+50,24,A,A050,1985-03-10,chirurgie,"Patient stade I, traitement chirurgie.",I
+51,27,A,A051,2023-11-22,radiotherapie,,
+52,16,B,B1001,2023-11-03,chirurgie,Patiente presentant une lesion pulmonaire de stade IV.,IV
+53,16,B,B1002,2023-12-05,immunotherapie,stade II - immunotherapie. Bonne tolerance.,II
+54,8,B,B1003,2023-07-13,chimiotherapie,"Bilan : de l'ovaire, classe stade II. Debut chimiotherapie.",II
+55,39,B,B1004,2022-11-29,chirurgie,"RCP du 29/11/2022 : stade II, decision chirurgie.",II
+56,34,B,B1005,2024-11-15,hormonotherapie,"Compte rendu : stadeIV confirme, hormonotherapie programmee.",IV
+57,34,B,B1006,2023-08-28,chirurgie,Patiente presentant une lesion gastrique de stade II.,II
+58,7,B,B1007,2022-01-30,radiotherapie,Patiente presentant une lesion pulmonaire de stade III.,III
+59,2,B,B1008,2022-08-30,chimiotherapie,stade III - chimiotherapie. Bonne tolerance.,III
+60,44,B,B1009,2021-01-26,immunotherapie,Patiente presentant une lesion pulmonaire de stade II.,II
+61,44,B,B1010,2023-10-05,chimiotherapie,stade I - chimiotherapie. Bonne tolerance.,I
+62,26,B,B1011,2024-05-26,chimiotherapie,stade II - chimiotherapie. Bonne tolerance.,II
+63,19,B,B1012,2024-06-02,chirurgie,"RCP du 02/06/2024 : stade IV, decision chirurgie.",IV
+64,19,B,B1013,2021-11-17,hormonotherapie,Patiente presentant une lesion pulmonaire de stade II.,II
+65,19,B,B1014,2024-07-04,radiotherapie,stade I - radiotherapie. Bonne tolerance.,I
+66,28,B,B1015,2022-09-22,chimiotherapie,stade I - chimiotherapie. Bonne tolerance.,I
+67,28,B,B1016,2023-06-16,chirurgie,Cancer ORL de stade IV. Prise en charge par chirurgie.,IV
+68,28,B,B1017,2024-10-08,hormonotherapie,Patiente presentant une lesion du sein de stade II.,II
+69,21,B,B1018,2024-07-24,hormonotherapie,Cancer du pancreas de stade II. Prise en charge par hormonotherapie.,II
+70,21,B,B1019,2024-11-21,chirurgie,Cancer du pancreas de stade II. Prise en charge par chirurgie.,II
+71,21,B,B1020,2021-08-26,chirurgie,Patiente presentant une lesion gastrique de stade III.,III
+72,18,B,B1021,2024-06-29,hormonotherapie,Patiente presentant une lesion gastrique de stade II.,II
+73,18,B,B1022,2024-07-14,chimiotherapie,Cancer du sein de stade IV. Prise en charge par chimiotherapie.,IV
+74,22,B,B1023,2022-08-21,radiotherapie,"Diagnostic : tumeur ORL, Stade I. radiotherapie en cours.",I
+75,22,B,B1024,2021-05-23,radiotherapie,"Patient stade IV, traitement radiotherapie.",IV
+76,43,B,B1025,2021-11-01,hormonotherapie,"RCP du 01/11/2021 : stade III, decision hormonotherapie.",III
+77,6,B,B1026,2022-04-24,hormonotherapie,"Compte rendu : stadeII confirme, hormonotherapie programmee.",II
+78,6,B,B1027,2021-03-17,radiotherapie,Cancer ORL de stade IV. Prise en charge par radiotherapie.,IV
+79,6,B,B1028,2023-04-20,chimiotherapie,"Compte rendu : stadeIV confirme, chimiotherapie programmee.",IV
+80,40,B,B1029,2022-10-11,hormonotherapie,"RCP du 11/10/2022 : stade III, decision hormonotherapie.",III
+81,40,B,B1030,2023-06-08,radiotherapie,stade III - radiotherapie. Bonne tolerance.,III
+82,12,B,B1031,2022-08-24,chirurgie,"Diagnostic : tumeur du sein, Stade I. chirurgie en cours.",I
+83,12,B,B1032,2024-06-02,radiotherapie,Patiente presentant une lesion pulmonaire de stade II.,II
+84,12,B,B1033,2024-09-27,immunotherapie,Patiente presentant une lesion de l'ovaire de stade III.,III
+85,37,B,B1034,2023-07-25,immunotherapie,stade III - immunotherapie. Bonne tolerance.,III
+86,37,B,B1035,2022-07-17,chimiotherapie,stade III - chimiotherapie. Bonne tolerance.,III
+87,37,B,B1036,2022-03-25,hormonotherapie,Cancer gastrique de stade II. Prise en charge par hormonotherapie.,II
+88,5,B,B1037,2021-03-10,chirurgie,"Diagnostic : tumeur ORL, Stade I. chirurgie en cours.",I
+89,5,B,B1038,2023-12-24,radiotherapie,stade II - radiotherapie. Bonne tolerance.,II
+90,5,B,B1039,2021-06-04,chimiotherapie,"Bilan : ORL, classe stade III. Debut chimiotherapie.",III
+91,31,B,B1040,2024-01-04,chimiotherapie,"Bilan : de l'ovaire, classe stade IV. Debut chimiotherapie.",IV
+92,14,B,B1041,2024-06-22,immunotherapie,stade II - immunotherapie. Bonne tolerance.,II
+93,46,B,B1042,2021-03-18,radiotherapie,Patiente presentant une lesion du sein de stade I.,I
+94,46,B,B1043,2024-04-17,hormonotherapie,"Compte rendu : stadeIII confirme, hormonotherapie programmee.",III
+95,11,B,B1044,2022-03-21,chimiotherapie,"Bilan : gastrique, classe stade III. Debut chimiotherapie.",III
+96,11,B,B1045,2022-01-24,immunotherapie,"Patient stade I, traitement immunotherapie.",I
+97,11,B,B1046,2021-09-15,chirurgie,"RCP du 15/09/2021 : stade I, decision chirurgie.",I
+98,20,B,B1047,2022-07-22,hormonotherapie,"Patient stade II, traitement hormonotherapie.",II
+99,45,B,B1048,2021-02-02,radiotherapie,Patiente presentant une lesion gastrique de stade III.,III
+100,4,B,B1049,2023-07-15,hormonotherapie,Patiente presentant une lesion pulmonaire de stade III.,III
+101,41,B,B1050,2023-04-03,chimiotherapie,"Diagnostic : tumeur ORL, Stade I. chimiotherapie en cours.",I
+102,32,B,B1051,2027-08-01,immunotherapie,Cancer pulmonaire de stade III. Prise en charge par immunotherapie.,III
+103,0,B,B1052,2023-07-19,chimiotherapie,stade IV - chimiotherapie. Surveillance rapprochee.,IV

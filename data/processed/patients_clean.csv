@@ -1,51 +1,48 @@
-patient_uid,nom_norm,date_naissance,sexe,sexe_conflit,ids_sources,nb_sources,age
-0,,1960-02-02,,False,B1053,1,66.0
-1,jean petit,,,False,B1005,1,
-2,christine lefevre,,,False,B1020,1,
-3,faure sylvie,,,False,B1023,1,
-4,emilie renard,,,False,B1029,1,
-5,colin denis,,,False,B1040,1,
-6,gaillard monique,,,False,B1047,1,
-7,chantal rey,,,False,B1050,1,
-8,ahmed benali,1960-09-14,M,False,"A009,A010,B1008,B1009,B1010",2,66.0
-9,alain aubert,1945-06-20,,False,B1036,1,81.0
-10,antoine muller,1951-11-30,M,False,"A025,A026",1,74.0
-11,aurelie robin,1978-04-04,F,False,"A033,A034,A035",1,48.0
-12,barbier vincent,1954-05-29,,False,B1027,1,72.0
-13,bernard gauthier,1947-11-11,,False,B1024,1,78.0
-14,bernard sophie,1965-07-22,F,False,"A003,A004,B1002,B1003",2,61.0
-15,blanc camille,1975-01-18,F,False,A027,1,51.0
-16,bouchard nadia,1969-08-01,F,False,"A038,A039",1,57.0
-17,brun francois,1950-03-31,,False,"B1043,B1044,B1045",1,76.0
-18,celine roussel,1967-01-23,,False,"B1025,B1026",1,59.0
-19,chantal rey,1959-05-07,,False,B1051,1,67.0
-20,cherif karim,1964-04-02,,False,"B1031,B1032,B1033",1,62.0
-21,chevalier robert,1943-12-13,M,False,A032,1,82.0
-22,christine lefevre,1953-08-16,F,False,"A019,B1018,B1019",2,73.0
-23,djamila meziane,1966-09-07,F,False,"A030,A031",1,60.0
-24,dumas valerie,1971-10-24,F,False,A042,1,54.0
-25,dupont martin,1958-03-12,M,False,"A001,A002,B1001",2,68.0
-26,durand pierre,1959-03-25,M,False,A023,1,67.0
-27,emilie renard,1979-09-10,,False,"B1028,B1030",1,47.0
-28,eva lambert,1961-09-03,F,False,A049,1,65.0
-29,fatima haddad,1968-04-08,F,False,"A015,B1014,B1015",2,58.0
-30,faure sylvie,1970-10-02,F,False,"A021,A022,B1022",2,55.0
-31,fontaine laurent,1961-02-27,M,False,"A016,A017,A018,B1016,B1017",2,65.0
-32,gaillard monique,1942-07-13,,False,B1046,1,84.0
-33,garnier michel,1946-06-11,M,False,"A020,B1021",2,80.0
-34,gerard lemoine,1944-02-15,M,False,"A040,A041",1,82.0
-35,girard isabelle,1955-05-03,F,False,"A011,A012,B1011",2,71.0
-36,girard luc,1990-06-15,M,False,A048,1,36.0
-37,guerin kevin,1980-05-21,M,False,"A028,A029",1,46.0
-38,hakim slimani,1973-11-19,,False,"B1048,B1049",1,52.0
-39,jean petit,1949-11-05,M,False,"A005,A006,B1004",2,76.0
-40,julie lopez,1982-02-14,,False,"B1037,B1038,B1039",1,44.0
-41,leroy marie,1963-07-09,F,False,A024,1,63.0
-42,marchand paul,1955-04-18,,False,B1052,1,71.0
-43,masson thierry,1957-06-28,M,False,"A036,A037",1,69.0
-44,moreau nathalie,1972-01-30,F,False,"A007,A008,B1006,B1007",2,54.0
-45,morel sandrine,1974-07-17,F,False,"A045,A046,A047",1,52.0
-46,noel patricia,1952-12-08,,False,"B1034,B1035",1,73.0
-47,olivier perrin,1962-03-06,M,False,"A043,A044",1,64.0
-48,philippe roux,1948-12-19,M,False,"A013,A014,B1012,B1013",2,77.0
-49,sabrina vidal,1976-10-05,,False,"B1041,B1042",1,49.0
+patient_uid,nom_norm,prenom_norm,deuxieme_prenom,date_naissance,sexe,sexe_conflit,ids_sources,nb_sources,age,est_complet
+0,,inconnu,,1960-02-02,,False,B1052,1,66.0,False
+1,masson,thierry,,,M,False,A037,1,,False
+2,girard,isabelle,,,,False,B1008,1,,False
+3,benali,ahmed,,,M,False,A010,1,,False
+4,rey,chantal,,,,False,B1049,1,,False
+5,aubert,alain,,1945-06-20,,False,"B1037,B1038,B1039",1,81.0,True
+6,barbier,vincent,,1954-05-29,,False,"B1026,B1027,B1028",1,72.0,True
+7,benali,ahmed,,1960-09-14,M,False,"A009,A011,B1007",2,66.0,True
+8,bernard,sophie,,1965-07-22,F,False,"A003,A004,B1003",2,61.0,True
+9,blanc,camille,,1975-01-18,F,False,"A026,A027,A028",1,51.0,True
+10,bouchard,nadia,,1969-08-01,F,False,"A038,A039",1,57.0,True
+11,brun,francois,,1950-03-31,,False,"B1044,B1045,B1046",1,76.0,True
+12,cherif,karim,,1964-04-02,,False,"B1031,B1032,B1033",1,62.0,True
+13,chevalier,robert,Henri,1943-12-13,M,False,A035,1,82.0,True
+14,colin,denis,,1956-08-26,,False,B1041,1,70.0,True
+15,dumas,valerie,,1971-10-24,F,False,"A043,A044,A045",1,54.0,True
+16,dupont,martin,Louis,1958-03-12,M,False,"A001,A002,B1001,B1002",2,68.0,True
+17,durand,pierre,,1959-03-25,M,False,"A022,A023",1,67.0,True
+18,faure,sylvie,Anne,1970-10-02,F,False,"A021,B1021,B1022",2,55.0,True
+19,fontaine,laurent,Andre,1961-02-27,M,False,"A016,B1012,B1013,B1014",2,65.0,True
+20,gaillard,monique,,1942-07-13,,False,B1047,1,84.0,True
+21,garnier,michel,,1946-06-11,M,False,"A018,A019,A020,B1018,B1019,B1020",2,80.0,True
+22,gauthier,bernard,,1947-11-11,,False,"B1023,B1024",1,78.0,True
+23,girard,isabelle,Marie,1955-05-03,F,False,A012,1,71.0,True
+24,girard,luc,,1990-06-15,M,False,A050,1,36.0,True
+25,guerin,kevin,,1980-05-21,M,False,"A029,A030,A031",1,46.0,True
+26,haddad,fatima,,1968-04-08,F,False,"A014,A015,B1011",2,58.0,True
+27,lambert,eva,,1961-09-03,F,False,A051,1,65.0,True
+28,lefevre,christine,,1953-08-16,F,False,"A017,B1015,B1016,B1017",2,73.0,True
+29,lemoine,gerard,Paul,1944-02-15,M,False,"A040,A041,A042",1,82.0,True
+30,leroy,marie,Jose,1963-07-09,F,False,A024,1,63.0,True
+31,lopez,julie,,1982-02-14,,False,B1040,1,44.0,True
+32,marchand,paul,,1955-04-18,,False,B1051,1,71.0,True
+33,meziane,djamila,,1966-09-07,F,False,"A032,A033,A034",1,60.0,True
+34,moreau,nathalie,,1972-01-30,F,False,"A008,B1005,B1006",2,54.0,True
+35,morel,sandrine,,1974-07-17,F,False,"A048,A049",1,52.0,True
+36,muller,antoine,,1951-11-30,M,False,A025,1,74.0,True
+37,noel,patricia,,1952-12-08,,False,"B1034,B1035,B1036",1,73.0,True
+38,perrin,olivier,,1962-03-06,M,False,"A046,A047",1,64.0,True
+39,petit,jean,Pierre,1949-11-05,M,False,"A005,A006,A007,B1004",2,76.0,True
+40,renard,emilie,,1979-09-10,,False,"B1029,B1030",1,47.0,True
+41,rey,chantal,Rose,1959-05-07,,False,B1050,1,67.0,True
+42,robin,aurelie,,1978-04-04,F,False,A036,1,48.0,True
+43,roussel,celine,,1967-01-23,,False,B1025,1,59.0,True
+44,roux,philippe,,1948-12-19,M,False,"A013,B1009,B1010",2,77.0,True
+45,slimani,hakim,,1973-11-19,,False,B1048,1,52.0,True
+46,vidal,sabrina,,1976-10-05,,False,"B1042,B1043",1,49.0,True
