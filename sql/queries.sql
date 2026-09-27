@@ -14,7 +14,7 @@ JOIN Patient p ON t.patient_uid = p.patient_uid
 GROUP BY t.stade
 ORDER BY t.stade;
 
--- Requête 3 — Fenêtrage : dernier traitement par patient
+-- Requête 3 — Fenêtrage : dernier traitement par patient.
 SELECT *
 FROM (
     SELECT t.patient_uid, t.date_traitement, t.type_traitement, t.stade,
