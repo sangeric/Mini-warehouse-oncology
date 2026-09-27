@@ -19,8 +19,8 @@ jobs:
 
       - name: Générer et nettoyer les données
         run: |
-          python generate_sources.py
-          python audit.py
+          python src/generate_sources.py
+          python src/audit.py
 
       - name: Lancer les tests
-        run: python test_pipeline.py
+        run: python src/test_pipeline.py
