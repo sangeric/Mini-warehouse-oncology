@@ -1,0 +1,26 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le code
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer les dépendances
+        run: pip install pandas numpy
+
+      - name: Générer et nettoyer les données
+        run: |
+          python generate_sources.py
+          python audit.py
+
+      - name: Lancer les tests
+        run: python test_pipeline.py
