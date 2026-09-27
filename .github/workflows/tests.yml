@@ -23,4 +23,4 @@ jobs:
           python src/audit.py
 
       - name: Lancer les tests
-        run: python src/test_pipeline.py
+        run: python test_pipeline.py
