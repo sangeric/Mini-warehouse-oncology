@@ -1,4 +1,5 @@
 import os
+import sys
 import pandas as pd
 from sqlalchemy import create_engine, text
 
@@ -77,6 +78,7 @@ def main():
         with engine.begin() as conn:
             conn.execute(text("INSERT INTO Traitement (id_traitement, patient_uid) VALUES (99999, 123456)"))
         print("\nFK NON appliquee (probleme)")
+        sys.exit(1)
     except Exception as e:
         print("\nFK appliquee : insertion orpheline refusee ->", type(e).__name__)
 

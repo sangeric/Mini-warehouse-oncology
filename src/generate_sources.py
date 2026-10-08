@@ -11,7 +11,8 @@ import csv
 import random
 import unicodedata
 from datetime import date, timedelta
-
+from pathlib import Path
+Path("data/raw").mkdir(parents=True, exist_ok=True)
 random.seed(42)
 
 def strip_accents(s):
@@ -183,12 +184,12 @@ rows_B.append({"patient_id": f"B{bid}", "last_name": "", "first_name": "INCONNU"
                "report": "stade IV - chimiotherapie. Surveillance rapprochee."}); bid += 1
 
 # ---------------- écriture ----------------
-with open("source_hopital_A.csv", "w", newline="", encoding="utf-8") as f:
+with open("data/raw/source_hopital_A.csv", "w", newline="", encoding="utf-8") as f:
     w = csv.DictWriter(f, fieldnames=["id_patient", "nom", "prenom", "deuxieme_prenom",
                                       "date_naissance", "sexe", "date_traitement",
                                       "type_traitement", "compte_rendu"])
     w.writeheader(); w.writerows(rows_A)
-with open("source_hopital_B.csv", "w", newline="", encoding="utf-8") as f:
+with open("data/raw/source_hopital_B.csv", "w", newline="", encoding="utf-8") as f:
     w = csv.DictWriter(f, fieldnames=["patient_id", "last_name", "first_name", "middle_name",
                                       "birth_date", "sexe_code", "treatment_date",
                                       "treatment_type", "report"])
