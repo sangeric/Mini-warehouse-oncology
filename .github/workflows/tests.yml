@@ -1,26 +1,63 @@
 name: CI
 
-on: [push, pull_request]
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   test:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - name: Récupérer le code
-        uses: actions/checkout@v4
-
-      - name: Installer Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
-      - name: Installer les dépendances
-        run: pip install pandas numpy
-
-      - name: Générer et nettoyer les données
+          cache: pip
+      - run: pip install -r requirements.txt pytest pytest-cov
+      - name: Pipeline
         run: |
           python src/generate_sources.py
           python src/audit.py
+      - run: pytest --cov=src
 
-      - name: Lancer les tests
-        run: python test_pipeline.py
+  integration:
+    needs: test
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: app
+          POSTGRES_PASSWORD: app
+          POSTGRES_DB: entrepot
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U app -d entrepot"
+          --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      DB_URL: postgresql+psycopg2://app:app@localhost:5432/entrepot
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: |
+          python src/generate_sources.py
+          python src/audit.py
+          python src/load_db.py
+      - name: Requêtes SQL
+        env:
+          PGPASSWORD: app
+        run: psql -h localhost -U app -d entrepot -v ON_ERROR_STOP=1 -f sql/queries.sql
